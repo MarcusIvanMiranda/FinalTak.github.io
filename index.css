@@ -1,0 +1,31 @@
+.main{
+    font-size: 120px;
+    color: rgb(5, 255, 109);
+}
+a{
+    position: relative;
+    background: #01f7ff;
+    color: #00f400;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    padding: 50px 70px;
+    transition: 0.5s;
+}
+a:hover{
+    letter-spacing: 0.25em;
+}
+a::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #000105;
+}
+a span{
+    position: relative;
+    z-index: 1;
+}
+body{
+    background: rgb(0, 0, 0);
+}
